@@ -1,0 +1,20 @@
+[
+    {
+        "title": "Football Analysis",
+        "descriptions": ["It can track Players and Ball and Seggragate different teams using YOLOV7 and KNN", "Measure Player Speed and distance on moving camera using OpenCV", "Calculate Ball Control of different teams"],
+        "image": "media/football_analysis.png",
+        "tags": ["Computer Vision" ,"Python", "Pytorch", "OpenCV", "YOLO", "OOP"]
+    },
+    {
+        "title": "Football Analysis",
+        "descriptions": ["It can track Players and Ball", "Seggragate different teams", "Measure Player Speed even though the camera is moving using Perspective Tranform", "How much Active the player has been", "Calculate Ball Control of different teams"],
+        "image": "media/football_analysis.png",
+        "tags": ["Computer Vision" ,"Python", "Pytorch", "OpenCV", "YOLO", "OOP"]
+    },
+    {
+        "title": "Football Analysis",
+        "descriptions": ["It can track Players and Ball", "Seggragate different teams", "Measure Player Speed even though the camera is moving using Perspective Tranform", "How much Active the player has been", "Calculate Ball Control of different teams"],
+        "image": "media/football_analysis.png",
+        "tags": ["Computer Vision" ,"Python", "Pytorch", "OpenCV", "YOLO", "OOP"]
+    }
+]

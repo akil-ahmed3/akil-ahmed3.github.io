@@ -1,0 +1,116 @@
+/* General Styles */
+body {
+    font-family: "Segoe UI", "SegoeUI", "Roboto", "Segoe WP", "Helvetica Neue", "Helvetica", "Tahoma", "Arial", "sans-serif";
+    margin: 0;
+    padding: 0;
+    background-color: #1e1e1e;
+}
+
+.hero {
+    background-position: center;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .intro .container {
+    text-align: center;
+  }
+  
+  .intro h1, .intro p {
+    color: white; /* Text color */
+  }
+
+  .bio {
+    font-family: monospace ;
+    text-align: center;
+    font-style: italic;
+    color: white;
+  }
+
+.collapsible {
+    background-color: #050505;
+    color: white;
+    cursor: pointer;
+    user-select: none;
+    padding: 18px;
+    /* width: 100%; */
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 18px;
+    transition: 0.4s;
+}
+
+ /* .active, .collapsible:hover {
+    background-color:  #1f1f1f;
+    border-color: None;
+    margin-bottom: 1rem;
+} */
+
+.card {
+    background-color: #1f1f1f;
+}
+
+.card-body {
+    background-color: #1f1f1f;
+    border: None;
+    color: white;
+}
+
+.content {
+    /* padding: 0 18px; */
+    /* max-height: 0; */
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+}  
+
+.lists {
+    padding: 0,
+}
+
+
+
+.project-image {
+    object-fit: cover; 
+    object-position: center; /* Center the image within the element */
+    width: 100%;
+    max-height: 270px;
+    margin-bottom: 1rem;
+
+}
+
+.lists {
+    margin-left: -10px;
+}
+
+.lists li {
+    margin-top: 0px;
+}
+
+.row {
+    object-position: Right
+}
+
+#video-collage {
+    margin: 0;
+    padding: 0;
+}
+
+footer {
+    background-color: #222;
+    color: white;
+    padding: 30px 0;
+    background-size: 300vh;
+    text-align: center;
+    
+}
+.footer a {
+    color: white;
+    margin: 0 30px;
+    text-decoration: none;
+}
+.footer a:hover {
+    color: #ddd;
+}
