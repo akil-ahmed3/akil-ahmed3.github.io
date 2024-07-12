@@ -1,20 +1,36 @@
-[
-    {
-        "title": "Football Analysis",
-        "descriptions": ["It can track Players and Ball and Seggragate different teams using YOLOV7 and KNN", "Measure Player Speed and distance on moving camera using OpenCV", "Calculate Ball Control of different teams"],
-        "image": "media/football_analysis.png",
-        "tags": ["Computer Vision" ,"Python", "Pytorch", "OpenCV", "YOLO", "OOP"]
-    },
-    {
-        "title": "Football Analysis",
-        "descriptions": ["It can track Players and Ball", "Seggragate different teams", "Measure Player Speed even though the camera is moving using Perspective Tranform", "How much Active the player has been", "Calculate Ball Control of different teams"],
-        "image": "media/football_analysis.png",
-        "tags": ["Computer Vision" ,"Python", "Pytorch", "OpenCV", "YOLO", "OOP"]
-    },
-    {
-        "title": "Football Analysis",
-        "descriptions": ["It can track Players and Ball", "Seggragate different teams", "Measure Player Speed even though the camera is moving using Perspective Tranform", "How much Active the player has been", "Calculate Ball Control of different teams"],
-        "image": "media/football_analysis.png",
-        "tags": ["Computer Vision" ,"Python", "Pytorch", "OpenCV", "YOLO", "OOP"]
-    }
-]
+{
+    "company_projects": [
+        {
+            "title": "Workplace Monitoring System",
+            "descriptions": ["Developed a workplace monitoring system which multiprocesses 100 CCTV Cameras Simultaneously", "It can detect PPE Kit, Slip and Fall, Smoke and Fire, Person Reidentification using Pytorch with 93-98% Accuracy", "Wrote the inference script with Nvidia Tritron and deployed it using Docker and FastAPI"],
+            "image": "media/ppe.png",
+            "tags": ["Computer Vision", "Python", "JavaScript", "PyTorch", "FastAPI", "SQLalchemy", "InfluxDB", "OpenCV", "Numpy", "Nodejs", "Expressjs", "Azure", "Docker", "Linux"]
+        },
+        {
+            "title": "3D Body Measurement",
+            "descriptions": [" Led a team to implement research papers to calculate Body Mesurements with 97% Accuracy", "Designed the system using Pytorch, Pytoch3D, FlaskAPI and React to to take one RGB image get measurements from it", "Deployed the system on client's AWS machine"],
+            "image": "media/body.jpg",
+            "tags": ["Computer Vision" ,"Python", "PyTorch", "PyTorch3D", "FlaskAPI", "Numpy", "Pandas", "Docker", "React"]
+        },
+        {
+            "title": "Other Projects",
+            "descriptions": ["Developed a Model for detecting brick quality with 98% accuracy and deployed it to the client's (General Shale) system", "Led a multidisciplinary team of Fullstack Engineers, AI Engineers and Annotators to develop a system for analyzing cricket videos to aid players in identifying and rectifying their errors", "Created multiple models from scratch to key metrics such as batsman's body angles, ball speed, pitch map, bounce, and deflection points and classifying different shots"],
+            "image": "media/others.png",
+            "tags": ["Computer Vision", "Python", "JavaScript", "Pytorch", "Tensorflow", "Keras", "Nodejs", "ExpressJS", "MongoDB", "React Native", "GCP"]
+        }
+    ],
+    "personal_projects": [
+        {
+            "title": "Medical Imaging",
+            "descriptions": [" can track Players and Ball and Seggragate different teams using YOLOV7 and KNN", "Measure Player Speed and distance on moving camera using OpenCV", "Calculate Ball Control of different teams"],
+            "image": "media/medical.png",
+            "tags": ["Computer Vision" ,"Python", "Pytorch", "OpenCV", "YOLO", "OOP"]
+        },
+        {
+            "title": "Football Analysis",
+            "descriptions": ["Developed a system that can track Players and Ball Seggragate different teams using Pytorch, YOLO, KNN", "Measure Player Speed with moving camera using Perspective Tranform Algorithm", "The system can measure how active the player has been and calculate Ball Control of different teams during the Game Using Opencv, Pytorch and classical Machine Learning Model"],
+            "image": "media/football_analysis.png",
+            "tags": ["Computer Vision" ,"Python", "Pytorch", "OpenCV", "YOLO", "OOP"]
+        }
+    ]
+}

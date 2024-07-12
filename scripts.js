@@ -14,17 +14,17 @@ document.addEventListener('DOMContentLoaded', () => {
                 <div>
                     <div class="card mb-3">
                         <div class="row g-0">
+                            <h3 class="card-title pl-4 pt-3 pb-2">${project.title}</h5>
                             <div class="col-md-12 projects-list-parent">
                                 <img src="${project.image}" class="img-fluid project-image" alt="${project.title}">
                             </div>
                             <div class="col-md-12 col-sm-12">
                                 <div class="card-body">
-                                    <h5 class="card-title">${project.title}</h5>
+                                    <h5 class="card-title">Highlights</h5>
                                     <ul class="lists">${list}</ul>
                                     <div class="col-md-12 col-sm-12">
                                         <p>Stack: ${project.tags.join(" | ")}</p>
                                     </div>
-                                    <a href="#" class="btn btn-primary">View Project</a>
                                 </div>
                             </div>
                         </div>
@@ -39,8 +39,8 @@ document.addEventListener('DOMContentLoaded', () => {
     fetch('project-data.json')
     .then(response => response.json())
     .then(data => {
-        generateProjectsHTML('projects-list-company', data);
-        generateProjectsHTML('projects-list-personal', data);
+        generateProjectsHTML('projects-list-company', data.company_projects);
+        generateProjectsHTML('projects-list-personal', data.personal_projects);
     })
     .catch(error => console.error('Error loading JSON file:', error));
 

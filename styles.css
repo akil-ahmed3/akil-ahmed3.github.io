@@ -18,11 +18,9 @@ body {
     text-align: center;
   }
   
-  .intro h1, .intro p {
-    color: white; /* Text color */
-  }
+ 
 
-  .bio {
+.bio {
     font-family: monospace ;
     text-align: center;
     font-style: italic;
@@ -43,14 +41,18 @@ body {
     transition: 0.4s;
 }
 
- /* .active, .collapsible:hover {
+ .active, .collapsible:hover {
     background-color:  #1f1f1f;
     border-color: None;
     margin-bottom: 1rem;
-} */
+}
 
 .card {
     background-color: #1f1f1f;
+}
+
+.card h3{
+    color: white;
 }
 
 .card-body {
@@ -73,7 +75,7 @@ body {
 
 
 .project-image {
-    object-fit: cover; 
+    object-fit:cover; 
     object-position: center; /* Center the image within the element */
     width: 100%;
     max-height: 270px;
