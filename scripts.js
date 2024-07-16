@@ -22,7 +22,7 @@ document.addEventListener('DOMContentLoaded', () => {
                                 <div class="card-body">
                                     <h5 class="card-title">Highlights</h5>
                                     <ul class="lists">${list}</ul>
-                                    <div class="col-md-12 col-sm-12">
+                                    <div class="tech-stack col-md-12 col-sm-12">
                                         <p>Stack: ${project.tags.join(" | ")}</p>
                                     </div>
                                 </div>
@@ -49,27 +49,35 @@ document.addEventListener('DOMContentLoaded', () => {
     fetch('youtube-videos.json')
     .then(response => response.json())
     .then(videos => {
-      const collage = document.getElementById('video-collage');
-      videos.forEach((video, index) => {
-        const col = document.createElement('div');
-        col.className = 'container-fluid col-md-5 col-lg-4 col-sm-12 mt-2';
-        const thumbnail = document.createElement('div');
-        thumbnail.className = 'video-thumbnail';
-        thumbnail.innerHTML = `
-          <div class="video-container pd-1">
-            <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/${video.videoId}" allowfullscreen></iframe>
-          </div>`;
-        thumbnail.addEventListener('click', () => {
-          const iframeContainer = thumbnail.querySelector('.video-container');
-          const iframe = iframeContainer.querySelector('iframe');
-          iframeContainer.style.display = 'block';
-          iframe.src += "?autoplay=1";
+        const collage = document.getElementById('video-collage');
+        videos.forEach((video, index) => {
+            const col = document.createElement('div');
+            col.className = 'container-fluid col-md-5 col-lg-4 col-sm-12 mt-2';
+            const thumbnail = document.createElement('div');
+            thumbnail.className = 'video-thumbnail';
+            thumbnail.innerHTML = `
+                <div class="video-container pd-1">
+                    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/${video.videoId}" allowfullscreen></iframe>
+                </div>`;
+            thumbnail.addEventListener('click', () => {
+                const iframeContainer = thumbnail.querySelector('.video-container');
+                const iframe = iframeContainer.querySelector('iframe');
+                iframeContainer.style.display = 'block';
+                iframe.src += "?autoplay=1";
+            });
+            col.appendChild(thumbnail);
+            collage.appendChild(col);
         });
-        col.appendChild(thumbnail);
-        collage.appendChild(col);
-      });
+
+        // Add class to the last two elements
+        const children = Array.from(collage.children);
+        if (children.length > 1) {
+            children[children.length - 2].classList.add('last-two');
+            children[children.length - 1].classList.add('last-two');
+        }
     })
     .catch(error => console.error('Error loading video JSON:', error));
+
 
     const coll = document.getElementsByClassName('collapsible');
     for (let i = 0; i < coll.length; i++) {

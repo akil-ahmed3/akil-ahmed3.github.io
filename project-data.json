@@ -2,35 +2,55 @@
     "company_projects": [
         {
             "title": "Workplace Monitoring System",
-            "descriptions": ["Developed a workplace monitoring system which multiprocesses 100 CCTV Cameras Simultaneously", "It can detect PPE Kit, Slip and Fall, Smoke and Fire, Person Reidentification using Pytorch with 93-98% Accuracy", "Wrote the inference script with Nvidia Tritron and deployed it using Docker and FastAPI"],
+            "descriptions": [
+                "Engineered a Safety Monitoring system processing 100 CCTV feeds simultaneously.",
+                "Implemented PPE, Slip/Fall, Smoke/Fire detection, and Person Reidentification with 93-98% accuracy using PyTorch.",
+                "Deployed inference scripts with Nvidia Triton, Docker, and FastAPI for scalability."
+            ],
             "image": "media/ppe.png",
-            "tags": ["Computer Vision", "Python", "JavaScript", "PyTorch", "FastAPI", "SQLalchemy", "InfluxDB", "OpenCV", "Numpy", "Nodejs", "Expressjs", "Azure", "Docker", "Linux"]
+            "tags": ["Computer Vision", "Python", "JavaScript", "PyTorch", "FastAPI", "SQLAlchemy", "InfluxDB", "OpenCV", "Numpy", "Node.js", "Express.js", "Azure", "Docker", "Linux"]
         },
         {
             "title": "3D Body Measurement",
-            "descriptions": [" Led a team to implement research papers to calculate Body Mesurements with 97% Accuracy", "Designed the system using Pytorch, Pytoch3D, FlaskAPI and React to to take one RGB image get measurements from it", "Deployed the system on client's AWS machine"],
-            "image": "media/body.jpg",
-            "tags": ["Computer Vision" ,"Python", "PyTorch", "PyTorch3D", "FlaskAPI", "Numpy", "Pandas", "Docker", "React"]
+            "descriptions": [
+                "Led team to create a 3D Body Measurement system with 97% accuracy.",
+                "Used PyTorch, PyTorch3D, FlaskAPI, and React to derive measurements from single RGB image.",
+                "Deployed the system on the client's AWS infrastructure."
+            ],
+            "image": "media/body.png",
+            "tags": ["Computer Vision", "Python", "PyTorch", "PyTorch3D", "FlaskAPI", "Numpy", "Pandas", "Docker", "React"]
         },
         {
             "title": "Other Projects",
-            "descriptions": ["Developed a Model for detecting brick quality with 98% accuracy and deployed it to the client's (General Shale) system", "Led a multidisciplinary team of Fullstack Engineers, AI Engineers and Annotators to develop a system for analyzing cricket videos to aid players in identifying and rectifying their errors", "Created multiple models from scratch to key metrics such as batsman's body angles, ball speed, pitch map, bounce, and deflection points and classifying different shots"],
+            "descriptions": [
+                "Created a 98%-accurate model for brick quality detection for General Shale.",
+                "Led a team to develop a cricket video analysis system aiding player's performance.",
+                "Designed models to analyze key metrics like angles, speed, pitch, bounce, and shot classification."
+            ],
             "image": "media/others.png",
-            "tags": ["Computer Vision", "Python", "JavaScript", "Pytorch", "Tensorflow", "Keras", "Nodejs", "ExpressJS", "MongoDB", "React Native", "GCP"]
+            "tags": ["Computer Vision", "Python", "JavaScript", "PyTorch", "TensorFlow", "Keras", "Node.js", "Express.js", "MongoDB", "React Native", "GCP"]
         }
     ],
     "personal_projects": [
         {
             "title": "Medical Imaging",
-            "descriptions": [" can track Players and Ball and Seggragate different teams using YOLOV7 and KNN", "Measure Player Speed and distance on moving camera using OpenCV", "Calculate Ball Control of different teams"],
+            "descriptions": [
+                "Developed a system to segment brain, liver, and lung tumors with 95% accuracy using PyTorch and PyTorch3D.",
+                "Built ensemble models for diagnosing pneumonia and congenital heart disease.",
+                "Designed an API to process Nibabel/DICOM files and return detailed inference data."
+            ],
             "image": "media/medical.png",
-            "tags": ["Computer Vision" ,"Python", "Pytorch", "OpenCV", "YOLO", "OOP"]
+            "tags": ["Computer Vision", "Python", "PyTorch", "OpenCV", "YOLO", "OOP"]
         },
         {
             "title": "Football Analysis",
-            "descriptions": ["Developed a system that can track Players and Ball Seggragate different teams using Pytorch, YOLO, KNN", "Measure Player Speed with moving camera using Perspective Tranform Algorithm", "The system can measure how active the player has been and calculate Ball Control of different teams during the Game Using Opencv, Pytorch and classical Machine Learning Model"],
+            "descriptions": [
+                "Engineered a system to track players and ball, segregate teams using PyTorch, YOLO, and KNN.",
+                "Measured player speed with a moving camera using perspective transform algorithms.",
+                "Analyzed player activity and ball control during games using OpenCV and PyTorch."
+            ],
             "image": "media/football_analysis.png",
-            "tags": ["Computer Vision" ,"Python", "Pytorch", "OpenCV", "YOLO", "OOP"]
+            "tags": ["Computer Vision", "Python", "PyTorch", "OpenCV", "YOLO", "OOP"]
         }
     ]
 }
