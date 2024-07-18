@@ -19,7 +19,7 @@ body {
 
 .bio {
     /* font-family: "Courier New", Courier, "Lucida Sans Typewriter", "Lucida Typewriter", monospace; */
-    text-align: center;;
+    text-align: justify;
     color: rgba(255, 255, 255, 0.7);
     font-size: 20px;
   }
