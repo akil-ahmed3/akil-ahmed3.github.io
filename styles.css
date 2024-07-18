@@ -18,9 +18,10 @@ body {
   }
 
 .bio {
-    font-family: "Courier New", Courier, "Lucida Sans Typewriter", "Lucida Typewriter", monospace;
-    text-align: justify;;
+    /* font-family: "Courier New", Courier, "Lucida Sans Typewriter", "Lucida Typewriter", monospace; */
+    text-align: center;;
     color: rgba(255, 255, 255, 0.7);
+    font-size: 20px;
   }
 
 .collapsible {
@@ -51,9 +52,9 @@ body {
     margin-left: 7px;
 }
 
-.tech-stack {
+/* .tech-stack {
     font-family: "Courier New", Courier, "Lucida Sans Typewriter", "Lucida Typewriter", monospace;
-}
+} */
 
 .card-body {
     background-color: #1f1f1f;
