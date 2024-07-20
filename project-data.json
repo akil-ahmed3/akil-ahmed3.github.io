@@ -8,7 +8,9 @@
                 "Deployed inference scripts with Nvidia Triton, Docker, and FastAPI for scalability."
             ],
             "image": "media/ppe.png",
-            "tags": ["Computer Vision", "Python", "JavaScript", "PyTorch", "FastAPI", "SQLAlchemy", "InfluxDB", "OpenCV", "Numpy", "Node.js", "Express.js", "Azure", "Docker", "Linux"]
+            "tags": ["Computer Vision", "Python", "JavaScript", "PyTorch", "FastAPI", "SQLAlchemy", "InfluxDB", "OpenCV", "Numpy", "Node.js", "Express.js", "Azure", "Docker", "Linux"],
+            "button_type": "Webpage", 
+            "button_link": "https://visionify.ai/"
         },
         {
             "title": "3D Body Measurement",
@@ -18,7 +20,9 @@
                 "Deployed the system on the client's AWS infrastructure."
             ],
             "image": "media/body.png",
-            "tags": ["Computer Vision", "Python", "PyTorch", "PyTorch3D", "FlaskAPI", "Numpy", "Pandas", "Docker", "React"]
+            "tags": ["Computer Vision", "Python", "PyTorch", "PyTorch3D", "FlaskAPI", "Numpy", "Pandas", "Docker", "React"],
+            "button_type": "Webpage", 
+            "button_link": "https://boldmetrics.com/"
         },
         {
             "title": "Other Projects",
@@ -28,7 +32,9 @@
                 "Designed models to analyze key metrics like angles, speed, pitch, bounce, and shot classification."
             ],
             "image": "media/others.png",
-            "tags": ["Computer Vision", "Python", "JavaScript", "PyTorch", "TensorFlow", "Keras", "Node.js", "Express.js", "MongoDB", "React Native", "GCP"]
+            "tags": ["Computer Vision", "Python", "JavaScript", "PyTorch", "TensorFlow", "Keras", "Node.js", "Express.js", "MongoDB", "React Native", "GCP"],
+            "button_type": "Webpage", 
+            "button_link": "https://generalshale.com/"
         }
     ],
     "personal_projects": [
@@ -40,7 +46,9 @@
                 "Designed an API to process Nibabel/DICOM files and return detailed inference data."
             ],
             "image": "media/medical.png",
-            "tags": ["Computer Vision", "Python", "PyTorch", "OpenCV", "YOLO", "OOP"]
+            "tags": ["Computer Vision", "Python", "PyTorch", "OpenCV", "YOLO", "OOP"],
+            "button_type": "GitHub", 
+            "button_link": "https://github.com/akil-ahmed3/ai_for_medicine"
         },
         {
             "title": "Football Analysis",
@@ -50,7 +58,9 @@
                 "Analyzed player activity and ball control during games using OpenCV and PyTorch."
             ],
             "image": "media/football_analysis.png",
-            "tags": ["Computer Vision", "Python", "PyTorch", "OpenCV", "YOLO", "OOP"]
+            "tags": ["Computer Vision", "Python", "PyTorch", "OpenCV", "YOLO", "OOP"],
+            "button_type": "GitHub", 
+            "button_link": "https://github.com/akil-ahmed3/football_analysis"
         }
     ]
 }

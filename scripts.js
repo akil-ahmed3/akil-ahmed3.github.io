@@ -25,6 +25,8 @@ document.addEventListener('DOMContentLoaded', () => {
                                     <div class="tech-stack col-md-12 col-sm-12">
                                         <p>Stack: ${project.tags.join(" | ")}</p>
                                     </div>
+
+                                    <a href="${project.button_link}" class="btn btn-outline-secondary rounded-button" role="button">${project.button_type}</a>
                                 </div>
                             </div>
                         </div>

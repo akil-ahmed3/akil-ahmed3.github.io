@@ -17,6 +17,10 @@ body {
     text-align: center;
   }
 
+  .rounded-button {
+    border-radius: 25px; /* Adjust the value to change the roundness */
+}
+
 .bio {
     /* font-family: "Courier New", Courier, "Lucida Sans Typewriter", "Lucida Typewriter", monospace; */
     text-align: justify;
